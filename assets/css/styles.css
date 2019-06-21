@@ -6,7 +6,6 @@ body {
   width: 400px;
   height: 400px;
   margin: 150px auto;
-  /* border: 1px solid black; */
 }
 
 .upper-left-box {
@@ -60,4 +59,46 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
+}
+
+.lower-left-border {
+  float: left;
+  width: 10px;
+  height: 100px;
+  background-color: black;
+}
+
+.lower-big-box {
+  float: left;
+  width: 260px;
+  height: 100px;
+  background-color: gainsboro;
+}
+
+.lower-right-border {
+  float: left;
+  width: 10px;
+  height: 100px;
+  background-color: black;
+}
+
+.right-upper-tiny-box {
+  float: left;
+  width: 20px;
+  height: 45px;
+  background-color: gainsboro;
+}
+
+.tiny-border {
+  float: right;
+  width: 20px;
+  height: 10px;
+  background-color: black;
+}
+
+.right-lower-tiny-box {
+  float: right;
+  width: 20px;
+  height: 45px;
+  background-color: yellow;
 }
